@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+}
+
+h1#meca {
+	margin-top: 0px;
+	color: gray;
+	font-size: 38px;
+	text-shadow: 0px 0px 10px gray;
+}
+
+h1#meca::first-letter {
+	color: white;
+	margin-top: 200px;
+	font-size: 72px;
+	text-shadow: 0px 0px 10px white;
+}
+
+#glowin_light {
+	box-shadow: 0px 0px 17px gray;
+}
+
+#glowin_dark {
+	box-shadow: 0px 0px 5px DimGrey;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
